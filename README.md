@@ -1,27 +1,53 @@
-# AdviceGeneratorApp
+# Frontend Mentor - Advice generator app solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](./src/assets/images/ScreenShotAdvice.png)
 
-## Running end-to-end tests
+### Links
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Further help
+## My process
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Built with
+
+- Semantic HTML5 markup
+- SCSS custom properties
+- Flexbox
+- [Angular](https://angular.io/) - JS library
+
+### Continued development
+
+In the future I will add unit and integration tests.
+
+## Author
+
+- Twitter - [@Jhona_CSS](https://twitter.com/Jhona_CSS)
