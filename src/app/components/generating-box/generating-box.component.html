@@ -1,12 +1,12 @@
-<section class="section-generating-box">
+<section class="section-generating-box" *ngIf="randomAdvice.advice !== ''">
   <div class="container-box">
-    <p class="text-advice-number">ADVICE #117</p>
+    <p class="text-advice-number">advice #{{randomAdvice.id}}</p>
 
-    <p class="text-advice"> It is easy to sit up and take notice, what's difficult is getting up and taking action.</p>
+    <p class="text-advice"> {{randomAdvice.advice}}</p>
 
     <div class="container-divider" role="img" aria-label="tip builder splitter"></div>
 
-    <button class="button-icon-dice">
+    <button class="button-icon-dice" (click)="getRandomAdvice()">
       <img src="./assets/svg/icon-dice.svg" alt="dice icon button">
     </button>
   </div>
